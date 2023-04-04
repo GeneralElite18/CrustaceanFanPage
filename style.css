@@ -1,0 +1,84 @@
+body{
+    text-align: center;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #F9F3EC;
+    color: #ED3833;
+}
+
+h1{
+    margin: 0;
+}
+
+.Header{
+    height: 100px;
+    width: 100%;
+    background-color: #F9F3EC;
+}
+
+.HeaderTitle{
+    color: #ED3833;
+    position: relative;
+    top: 25px;
+}
+
+.NavLinks{
+    margin-left: auto;
+    margin-right: 50px;
+    position: relative;
+}
+
+.TableLinks{
+    padding: 0 20px;
+}
+
+.CrabImageSection{
+    height: 300px;
+    background-color: #63AABC;
+}
+
+.CrabImg{
+    height: 300px;
+}
+
+.CrustaceanButton{
+    border-radius: 5px;
+    background-color: #ED3833;
+    color: #F9F3EC;
+    font-size: 40px;
+    border-style: none;
+}
+
+.CrustaceanButton:hover{
+    border-radius: 5px;
+    background-color: #9f2622;
+    color: #F9F3EC;
+    font-size: 40px;
+    border-style: none;
+}
+
+.Links{
+    text-decoration: none;
+    color: #ED3833;
+    font-size: 18px;
+}
+
+.Links:hover{
+    color: #641917;
+}
+
+.CrustInfo{
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.CrustData{
+    padding: 15px 30px;
+    margin: auto 0;
+    width: 200px;
+}
+
+.TableImg{
+    width: 200px;
+    display: inline;
+}
