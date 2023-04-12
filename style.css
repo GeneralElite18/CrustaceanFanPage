@@ -2,7 +2,7 @@ body{
     text-align: center;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #F9F3EC;
+    background-image: linear-gradient(180deg, #F9F3EC, #ceccca);
     color: #ED3833;
 }
 
@@ -41,7 +41,7 @@ h2{
 
 .CrabImageSection{
     width: 100%;
-    background-color: #63AABC;
+    background-image: linear-gradient(45deg, #63AABC, #298ba3);
     margin: 0;
 }
 
@@ -53,17 +53,14 @@ h2{
     border-radius: 5px;
     background-color: #ED3833;
     color: #F9F3EC;
-    font-size: 40px;
+    font-size: 2.5rem;
     border-style: none;
     margin: 2rem;
 }
 
 .CrustaceanButton:hover{
-    border-radius: 5px;
     background-color: #9f2622;
-    color: #F9F3EC;
-    font-size: 40px;
-    border-style: none;
+    font-size: 3rem;
 }
 
 .Links{
@@ -97,4 +94,8 @@ h2{
 .TableImg{
     width: 50%;
     display: inline-block;
+}
+
+.TableImg:hover{
+    width: 55%;
 }
